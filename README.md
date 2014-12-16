@@ -640,9 +640,7 @@ Windows ends up throwing away the highbits of stuff
 <http://msdn.microsoft.com/en-us/library/aa363651.aspx>
 
 which means we end up with event ids different than event viewer
-typically:
-<https://www.ibm.com/developerworks/community/forums/html/topic?id=77777777-0000-0000-0000-000014748770>
-=
+typically: <https://www.ibm.com/developerworks/community/forums/html/topic?id=77777777-0000-0000-0000-000014748770>
 
 > So basically the event viewer in Windows throws away the "high bits"
 > of the event, but the event ID inspector doesn't do this. According to
