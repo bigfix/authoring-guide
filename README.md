@@ -1,6 +1,52 @@
 Relevance Cheat Sheet
 =====================
 
+Table of Contents
+=================
+
+  * [OS expressions](#os-expressions)
+    * [Mac](#mac)
+    * [Windows](#windows)
+  * [Reg apps (registered applications)](#reg-apps-registered-applications)
+    * [Windows](#windows-1)
+      * [Does this file exist?](#does-this-file-exist)
+    * [On a mac](#on-a-mac)
+  * [Is the user logged in?](#is-the-user-logged-in)
+    * [Terminal Server](#terminal-server)
+  * [What’s a path of one of the special system directories?](#whats-a-path-of-one-of-the-special-system-directories)
+    * [Mac](#mac-1)
+    * [Windows](#windows-2)
+  * [Does this registry key exist](#does-this-registry-key-exist)
+  * [Is the registry key this value (version #, is this version 3 or higher?)](#is-the-registry-key-this-value-version--is-this-version-3-or-higher)
+  * [Is this application installed?](#is-this-application-installed)
+  * [How much disk space is free?](#how-much-disk-space-is-free)
+    * [Mac](#mac-2)
+    * [Windows](#windows-3)
+  * [Does this text exist in a text file?](#does-this-text-exist-in-a-text-file)
+  * [Is an application installed on a mac (mac specific inspector)](#is-an-application-installed-on-a-mac-mac-specific-inspector)
+  * [References to time](#references-to-time)
+    * [DATE](#date)
+    * [TIME](#time)
+  * [Network objects, mac address, IP address](#network-objects-mac-address-ip-address)
+  * [Primitives](#primitives)
+    * [File modified within the last 30 days:](#file-modified-within-the-last-30-days)
+    * [Getting day month year from modification time of a file:](#getting-day-month-year-from-modification-time-of-a-file)
+  * [Are services running, do they exist](#are-services-running-do-they-exist)
+  * [Is this process running?](#is-this-process-running)
+    * [Windows](#windows-4)
+    * [Mac](#mac-3)
+  * [Event log – show me the events with this ID in the application log](#event-log--show-me-the-events-with-this-id-in-the-application-log)
+  * [WMI – serial number of computer, or serial number for a computer for a mac](#wmi--serial-number-of-computer-or-serial-number-for-a-computer-for-a-mac)
+    * [Mac](#mac-4)
+    * [Windows](#windows-5)
+  * [Version Comparisons](#version-comparisons)
+  * [1 or 2 examples of plurals, an example of it, 2 example of a tuple](#1-or-2-examples-of-plurals-an-example-of-it-2-example-of-a-tuple)
+    * [Tuples](#tuples)
+  * [In line relevance for action script](#in-line-relevance-for-action-script)
+  * [Comments](#comments)
+  * [Concatenation (relevance)](#concatenation-relevance)
+  * [Other good relevance reference materials](#other-good-relevance-reference-materials)
+
 OS expressions
 --------------
 
